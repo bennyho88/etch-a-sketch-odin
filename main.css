@@ -41,9 +41,7 @@ main {
     border: 1px solid black;
 }
 
-.color {
-    background: black;
-}
+
 
 .buttons-container {
     display: flex;
@@ -76,6 +74,31 @@ main {
     cursor: pointer;
 }
 
+/* colours */
+
+.blackClr {
+    background: black;
+}
+
+.redClr {
+    background: red;
+}
+
+.greenClr {
+    background: green;
+}
+
+.blueClr {
+    background: blue;
+}
+
+.yellowClr {
+    background: yellow;
+}
+
+
+
+/* colour buttons */
 .black:hover {
    background: black;
    color: white;

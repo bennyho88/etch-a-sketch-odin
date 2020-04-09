@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         grid.addEventListener('mouseover', function () {
 
-            grid.classList.add('color');
+            grid.classList.add('blackClr');
         })
     })
 
@@ -55,15 +55,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     grid.addEventListener('mouseover', function () {
 
-                        grid.classList.toggle('color');
+                        grid.style.backgroundColor = 'white';
+
                     })
                 })
 
             }
-
-
-
-
         })
     })
 
@@ -135,14 +132,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const array = ['black', 'red', 'green', 'blue', 'yellow'];
 
-                        let random = Math.floor(Math.random() * array.length);
-                        console.log(random);
+                let random = Math.floor(Math.random() * array.length);
+                console.log(random);
 
                 gridContainer.forEach(grid => {
 
                     grid.addEventListener('mouseover', function () {
 
-                        
+
 
                         grid.style.backgroundColor = array[random];
                     })
