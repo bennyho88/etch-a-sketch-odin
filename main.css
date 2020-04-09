@@ -33,7 +33,7 @@ main {
     width: 680px;
     height: 680px;
     grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);
     border: 2px solid black;
 }
 
