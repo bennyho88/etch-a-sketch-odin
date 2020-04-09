@@ -62,3 +62,45 @@ main {
     background: greenyellow;
     
 }
+
+.buttons-colour {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-colour .btnClr {
+    padding: 10px 20px;
+    margin: 2rem 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.black:hover {
+   background: black;
+   color: white;
+}
+
+.red:hover {
+    background: red;
+}
+
+.green:hover {
+    background: green;
+}
+
+
+.blue:hover {
+    background: blue;
+}
+
+.yellow:hover {
+    background: yellow;
+}
+
+
+.red:hover {
+    background: red;
+}
+
+
